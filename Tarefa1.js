@@ -1,10 +1,12 @@
 // ### **Tarefa 1: Manipulação de Arrays e Objetos**
 
-// Crie uma função chamada `transformData` que recebe um array de objetos representando usuários e retorna um novo array com os seguintes critérios:
-// 1. Cada objeto do array original possui as propriedades: `id`, `name`, `age`, `isActive`.
-// 2. A função deve retornar um novo array contendo apenas os usuários ativos (`isActive: true`).
-// 3. Adicionalmente, o novo array deve conter apenas as propriedades `id` e `name`.
-// 4. Ordene o array final por `name` em ordem alfabética.
+/* 
+Crie uma função chamada `transformData` que recebe um array de objetos representando usuários e retorna um novo array com os seguintes critérios:
+1. Cada objeto do array original possui as propriedades: `id`, `name`, `age`, `isActive`.
+2. A função deve retornar um novo array contendo apenas os usuários ativos (`isActive: true`).
+3. Adicionalmente, o novo array deve conter apenas as propriedades `id` e `name`.
+4. Ordene o array final por `name` em ordem alfabética.
+*/ 
 
 function transformData(users) {
     users = [
