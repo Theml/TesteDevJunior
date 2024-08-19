@@ -1,9 +1,11 @@
 // ### **Tarefa 5: Mesclar Arrays de Objetos**
 
-// Implemente uma função chamada `mergeArrays` que recebe dois arrays de objetos e mescla os objetos que têm a mesma chave `id`. 
-// O resultado deve ser um novo array de objetos onde cada objeto contém todas as propriedades dos objetos com o mesmo `id`. 
-// Se uma propriedade for compartilhada, o valor do segundo array deve sobrescrever o do primeiro.
-
+/* 
+Implemente uma função chamada `mergeArrays` que recebe dois arrays de objetos e mescla os objetos que têm a mesma chave `id`. 
+O resultado deve ser um novo array de objetos onde cada objeto contém todas as propriedades dos objetos com o mesmo `id`. 
+Se uma propriedade for compartilhada, o valor do segundo array deve sobrescrever o do primeiro.
+*/
+   
 function mergeArrays(arr1, arr2) {
    return [...arr1, ...arr2]
     .reduce((acc,obj) => {
