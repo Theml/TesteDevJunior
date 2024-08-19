@@ -4,12 +4,13 @@ const { useState } = require("react")
 
 // ### **Tarefa 1: Componente de Lista de Tarefas**
 
-// Implemente um componente React chamado `TaskList` que exibe uma lista de tarefas. Cada tarefa tem um nome e um status de conclusão (concluída ou não).
+/* Implemente um componente React chamado `TaskList` que exibe uma lista de tarefas. Cada tarefa tem um nome e um status de conclusão (concluída ou não).
 
-// 1. O componente deve permitir adicionar novas tarefas.
-// 2. Cada tarefa deve ter um botão para marcar como concluída ou não concluída.
-// 3. Utilize o hook `useState` para gerenciar o estado das tarefas.
-// 4. Adicione um botão para filtrar as tarefas concluídas.
+ 1. O componente deve permitir adicionar novas tarefas.
+ 2. Cada tarefa deve ter um botão para marcar como concluída ou não concluída.
+ 3. Utilize o hook `useState` para gerenciar o estado das tarefas.
+ 4. Adicione um botão para filtrar as tarefas concluídas.
+ */
 
 function TaskList() {
     const [tasks, setTasks] = useState([])
