@@ -9,4 +9,4 @@
 - Vue
 - React
 
-#### OBS: Não era necessário fazer a atividade com ambos os frameworks, porém escolhi fazer com ambos já que estou estudando Vue. As outras atividades era opcional também a questão da linguagem utilizada com as opções sendo typescript ou javascript. Decidi utilizar javascript, mas creo que as soluções não mudariam muito de cada atividade.
+#### OBS: Não era necessário fazer a atividade com ambos os frameworks, porém escolhi fazer com ambos já que estou estudando Vue. As outras atividades era opcional também a questão da linguagem utilizada com as opções sendo typescript ou javascript. Decidi utilizar javascript, mas creio que as soluções não mudariam muito de cada atividade.
